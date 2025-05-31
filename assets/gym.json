@@ -1,0 +1,1886 @@
+[
+  {
+    "Exercise_Name": "Rickshaw Carry",
+    "muscle_gp": "Forearms"
+  },
+  {
+    "Exercise_Name": "Single-Leg Press",
+    "muscle_gp": "Quadriceps"
+  },
+  {
+    "Exercise_Name": "Landmine twist",
+    "muscle_gp": "Abdominals"
+  },
+  {
+    "Exercise_Name": "Weighted pull-up",
+    "muscle_gp": "Lats"
+  },
+  {
+    "Exercise_Name": "T-Bar Row with Handle",
+    "muscle_gp": "Middle Back"
+  },
+  {
+    "Exercise_Name": "Palms-down wrist curl over bench",
+    "muscle_gp": "Forearms"
+  },
+  {
+    "Exercise_Name": "Atlas Stones",
+    "muscle_gp": "Lower Back"
+  },
+  {
+    "Exercise_Name": "Dumbbell front raise to lateral raise",
+    "muscle_gp": "Shoulders"
+  },
+  {
+    "Exercise_Name": "Clean from Blocks",
+    "muscle_gp": "Quadriceps"
+  },
+  {
+    "Exercise_Name": "Incline Hammer Curls",
+    "muscle_gp": "Biceps"
+  },
+  {
+    "Exercise_Name": "Straight-bar wrist roll-up",
+    "muscle_gp": "Forearms"
+  },
+  {
+    "Exercise_Name": "Barbell glute bridge",
+    "muscle_gp": "Glutes"
+  },
+  {
+    "Exercise_Name": "Clean and press",
+    "muscle_gp": "Shoulders"
+  },
+  {
+    "Exercise_Name": "Triceps dip",
+    "muscle_gp": "Triceps"
+  },
+  {
+    "Exercise_Name": "Dumbbell farmer's walk",
+    "muscle_gp": "Forearms"
+  },
+  {
+    "Exercise_Name": "Palms-up wrist curl over bench",
+    "muscle_gp": "Forearms"
+  },
+  {
+    "Exercise_Name": "Barbell Full Squat",
+    "muscle_gp": "Quadriceps"
+  },
+  {
+    "Exercise_Name": "Barbell deficit deadlift",
+    "muscle_gp": "Lower Back"
+  },
+  {
+    "Exercise_Name": "Barbell Deadlift",
+    "muscle_gp": "Hamstrings"
+  },
+  {
+    "Exercise_Name": "Single-arm palm-in dumbbell shoulder press",
+    "muscle_gp": "Shoulders"
+  },
+  {
+    "Exercise_Name": "Romanian Deadlift With Dumbbells",
+    "muscle_gp": "Hamstrings"
+  },
+  {
+    "Exercise_Name": "Tire flip",
+    "muscle_gp": "Quadriceps"
+  },
+  {
+    "Exercise_Name": "Clean Deadlift",
+    "muscle_gp": "Hamstrings"
+  },
+  {
+    "Exercise_Name": "Elbow plank",
+    "muscle_gp": "Abdominals"
+  },
+  {
+    "Exercise_Name": "Bottoms Up",
+    "muscle_gp": "Abdominals"
+  },
+  {
+    "Exercise_Name": "Barbell back squat to box",
+    "muscle_gp": "Quadriceps"
+  },
+  {
+    "Exercise_Name": "Clean and jerk",
+    "muscle_gp": "Shoulders"
+  },
+  {
+    "Exercise_Name": "Single-arm kettlebell push-press",
+    "muscle_gp": "Shoulders"
+  },
+  {
+    "Exercise_Name": "Push-press",
+    "muscle_gp": "Quadriceps"
+  },
+  {
+    "Exercise_Name": "Suspended ab fall-out",
+    "muscle_gp": "Abdominals"
+  },
+  {
+    "Exercise_Name": "Military press",
+    "muscle_gp": "Shoulders"
+  },
+  {
+    "Exercise_Name": "Power snatch-",
+    "muscle_gp": "Quadriceps"
+  },
+  {
+    "Exercise_Name": "Sumo deadlift",
+    "muscle_gp": "Hamstrings"
+  },
+  {
+    "Exercise_Name": "Hang Clean",
+    "muscle_gp": "Quadriceps"
+  },
+  {
+    "Exercise_Name": "Dumbbell V-Sit Cross Jab",
+    "muscle_gp": "Abdominals"
+  },
+  {
+    "Exercise_Name": "Reverse Band Box Squat",
+    "muscle_gp": "Quadriceps"
+  },
+  {
+    "Exercise_Name": "Standing palms-in shoulder press",
+    "muscle_gp": "Shoulders"
+  },
+  {
+    "Exercise_Name": "Standing cable low-to-high twist",
+    "muscle_gp": "Abdominals"
+  },
+  {
+    "Exercise_Name": "Decline EZ-bar skullcrusher",
+    "muscle_gp": "Triceps"
+  },
+  {
+    "Exercise_Name": "Standing behind-the-back wrist curl",
+    "muscle_gp": "Forearms"
+  },
+  {
+    "Exercise_Name": "Seated finger curl",
+    "muscle_gp": "Forearms"
+  },
+  {
+    "Exercise_Name": "Wide-grip barbell curl",
+    "muscle_gp": "Biceps"
+  },
+  {
+    "Exercise_Name": "Dumbbell spell caster",
+    "muscle_gp": "Abdominals"
+  },
+  {
+    "Exercise_Name": "Dumbbell floor press",
+    "muscle_gp": "Triceps"
+  },
+  {
+    "Exercise_Name": "Lying Face Down Plate Neck Resistance",
+    "muscle_gp": "Neck"
+  },
+  {
+    "Exercise_Name": "Pullups",
+    "muscle_gp": "Lats"
+  },
+  {
+    "Exercise_Name": "Decline reverse crunch",
+    "muscle_gp": "Abdominals"
+  },
+  {
+    "Exercise_Name": "Dumbbell Bench Press",
+    "muscle_gp": "Chest"
+  },
+  {
+    "Exercise_Name": "Jumping rope",
+    "muscle_gp": "Quadriceps"
+  },
+  {
+    "Exercise_Name": "Seated barbell shoulder press",
+    "muscle_gp": "Shoulders"
+  },
+  {
+    "Exercise_Name": "EZ-bar spider curl",
+    "muscle_gp": "Biceps"
+  },
+  {
+    "Exercise_Name": "Smith machine shrug",
+    "muscle_gp": "Traps"
+  },
+  {
+    "Exercise_Name": "Smith Machine Calf Raise",
+    "muscle_gp": "Calves"
+  },
+  {
+    "Exercise_Name": "Romanian Deadlift from Deficit",
+    "muscle_gp": "Hamstrings"
+  },
+  {
+    "Exercise_Name": "Power Snatch",
+    "muscle_gp": "Hamstrings"
+  },
+  {
+    "Exercise_Name": "Pushups",
+    "muscle_gp": "Chest"
+  },
+  {
+    "Exercise_Name": "Barbell walking lunge",
+    "muscle_gp": "Quadriceps"
+  },
+  {
+    "Exercise_Name": "Front Squats With Two Kettlebells",
+    "muscle_gp": "Quadriceps"
+  },
+  {
+    "Exercise_Name": "Spider crawl",
+    "muscle_gp": "Abdominals"
+  },
+  {
+    "Exercise_Name": "Power Clean from Blocks",
+    "muscle_gp": "Hamstrings"
+  },
+  {
+    "Exercise_Name": "Single Leg Push-off",
+    "muscle_gp": "Quadriceps"
+  },
+  {
+    "Exercise_Name": "Hip Circles (Prone)",
+    "muscle_gp": "Abductors"
+  },
+  {
+    "Exercise_Name": "Reverse-grip bent-over row",
+    "muscle_gp": "Middle Back"
+  },
+  {
+    "Exercise_Name": "Seated Two-Arm Palms-Up Low-Pulley Wrist Curl",
+    "muscle_gp": "Forearms"
+  },
+  {
+    "Exercise_Name": "Back extension",
+    "muscle_gp": "Lower Back"
+  },
+  {
+    "Exercise_Name": "Close-grip bench press",
+    "muscle_gp": "Chest"
+  },
+  {
+    "Exercise_Name": "Cocoons",
+    "muscle_gp": "Abdominals"
+  },
+  {
+    "Exercise_Name": "Cross-Body Crunch",
+    "muscle_gp": "Abdominals"
+  },
+  {
+    "Exercise_Name": "Dumbbell Flyes",
+    "muscle_gp": "Chest"
+  },
+  {
+    "Exercise_Name": "Hammer Curls",
+    "muscle_gp": "Biceps"
+  },
+  {
+    "Exercise_Name": "Incline dumbbell bench press",
+    "muscle_gp": "Chest"
+  },
+  {
+    "Exercise_Name": "Low-cable cross-over",
+    "muscle_gp": "Chest"
+  },
+  {
+    "Exercise_Name": "Single-arm high-cable side bend",
+    "muscle_gp": "Abdominals"
+  },
+  {
+    "Exercise_Name": "Seated Dumbbell Press",
+    "muscle_gp": "Shoulders"
+  },
+  {
+    "Exercise_Name": "Standing dumbbell shoulder press",
+    "muscle_gp": "Shoulders"
+  },
+  {
+    "Exercise_Name": "Single Leg Push-off",
+    "muscle_gp": "Quadriceps"
+  },
+  {
+    "Exercise_Name": "Hip Circles (Prone)",
+    "muscle_gp": "Abductors"
+  },
+  {
+    "Exercise_Name": "Reverse-grip bent-over row",
+    "muscle_gp": "Middle Back"
+  },
+  {
+    "Exercise_Name": "Seated Two-Arm Palms-Up Low-Pulley Wrist Curl",
+    "muscle_gp": "Forearms"
+  },
+  {
+    "Exercise_Name": "Back extension",
+    "muscle_gp": "Lower Back"
+  },
+  {
+    "Exercise_Name": "Close-grip bench press",
+    "muscle_gp": "Chest"
+  },
+  {
+    "Exercise_Name": "Cocoons",
+    "muscle_gp": "Abdominals"
+  },
+  {
+    "Exercise_Name": "Cross-Body Crunch",
+    "muscle_gp": "Abdominals"
+  },
+  {
+    "Exercise_Name": "Dumbbell Flyes",
+    "muscle_gp": "Chest"
+  },
+  {
+    "Exercise_Name": "Hammer Curls",
+    "muscle_gp": "Biceps"
+  },
+  {
+    "Exercise_Name": "Incline dumbbell bench press",
+    "muscle_gp": "Chest"
+  },
+  {
+    "Exercise_Name": "Seated Dumbbell Press",
+    "muscle_gp": "Shoulders"
+  },
+  {
+    "Exercise_Name": "Standing dumbbell shoulder press",
+    "muscle_gp": "Shoulders"
+  },
+  {
+    "Exercise_Name": "EZ-Bar Curl",
+    "muscle_gp": "Biceps"
+  },
+  {
+    "Exercise_Name": "Olympic Squat",
+    "muscle_gp": "Quadriceps"
+  },
+  {
+    "Exercise_Name": "Natural Glute Ham Raise",
+    "muscle_gp": "Hamstrings"
+  },
+  {
+    "Exercise_Name": "Axle Deadlift",
+    "muscle_gp": "Lower Back"
+  },
+  {
+    "Exercise_Name": "Zottman Curl",
+    "muscle_gp": "Biceps"
+  },
+  {
+    "Exercise_Name": "Glute ham raise-",
+    "muscle_gp": "Hamstrings"
+  },
+  {
+    "Exercise_Name": "Single-arm lateral raise",
+    "muscle_gp": "Shoulders"
+  },
+  {
+    "Exercise_Name": "Power Partials",
+    "muscle_gp": "Shoulders"
+  },
+  {
+    "Exercise_Name": "Leverage Shrug",
+    "muscle_gp": "Traps"
+  },
+  {
+    "Exercise_Name": "Cable V-bar push-down",
+    "muscle_gp": "Triceps"
+  },
+  {
+    "Exercise_Name": "Wrist Roller",
+    "muscle_gp": "Forearms"
+  },
+  {
+    "Exercise_Name": "Incline dumbbell reverse fly",
+    "muscle_gp": "Shoulders"
+  },
+  {
+    "Exercise_Name": "Stair climber",
+    "muscle_gp": "Quadriceps"
+  },
+  {
+    "Exercise_Name": "Elbow-to-knee crunch",
+    "muscle_gp": "Abdominals"
+  },
+  {
+    "Exercise_Name": "Kettlebell Pistol Squat",
+    "muscle_gp": "Quadriceps"
+  },
+  {
+    "Exercise_Name": "Overhead dumbbell front raise",
+    "muscle_gp": "Shoulders"
+  },
+  {
+    "Exercise_Name": "Biceps curl to shoulder press",
+    "muscle_gp": "Biceps"
+  },
+  {
+    "Exercise_Name": "Weighted bench dip",
+    "muscle_gp": "Triceps"
+  },
+  {
+    "Exercise_Name": "Barbell Hip Thrust",
+    "muscle_gp": "Glutes"
+  },
+  {
+    "Exercise_Name": "Forward lunge",
+    "muscle_gp": "Quadriceps"
+  },
+  {
+    "Exercise_Name": "Barbell Bench Press - Medium Grip",
+    "muscle_gp": "Chest"
+  },
+  {
+    "Exercise_Name": "Chest dip",
+    "muscle_gp": "Chest"
+  },
+  {
+    "Exercise_Name": "Seated dumbbell shoulder press",
+    "muscle_gp": "Shoulders"
+  },
+  {
+    "Exercise_Name": "Barbell Curl",
+    "muscle_gp": "Biceps"
+  },
+  {
+    "Exercise_Name": "EZ-Bar Skullcrusher",
+    "muscle_gp": "Triceps"
+  },
+  {
+    "Exercise_Name": "One-Arm Dumbbell Row",
+    "muscle_gp": "Middle Back"
+  },
+  {
+    "Exercise_Name": "Alternating standing shoulder press",
+    "muscle_gp": "Shoulders"
+  },
+  {
+    "Exercise_Name": "Concentration curl",
+    "muscle_gp": "Biceps"
+  },
+  {
+    "Exercise_Name": "Decline Crunch",
+    "muscle_gp": "Abdominals"
+  },
+  {
+    "Exercise_Name": "Decline Dumbbell Flyes",
+    "muscle_gp": "Chest"
+  },
+  {
+    "Exercise_Name": "Single-arm incline rear delt raise",
+    "muscle_gp": "Shoulders"
+  },
+  {
+    "Exercise_Name": "Alternating dumbbell front raise",
+    "muscle_gp": "Shoulders"
+  },
+  {
+    "Exercise_Name": "Hanging toes-to-bar",
+    "muscle_gp": "Abdominals"
+  },
+  {
+    "Exercise_Name": "Narrow-stance squat",
+    "muscle_gp": "Quadriceps"
+  },
+  {
+    "Exercise_Name": "Kneeling cable oblique crunch",
+    "muscle_gp": "Abdominals"
+  },
+  {
+    "Exercise_Name": "Reverse Grip Triceps Pushdown",
+    "muscle_gp": "Triceps"
+  },
+  {
+    "Exercise_Name": "Bear crawl sled drag",
+    "muscle_gp": "Quadriceps"
+  },
+  {
+    "Exercise_Name": "Rocky Pull-Ups/Pulldowns",
+    "muscle_gp": "Lats"
+  },
+  {
+    "Exercise_Name": "Snatch-Grip Behind-The-Neck Overhead Press",
+    "muscle_gp": "Shoulders"
+  },
+  {
+    "Exercise_Name": "Box Squat with Bands",
+    "muscle_gp": "Quadriceps"
+  },
+  {
+    "Exercise_Name": "Flexor Incline Dumbbell Curls",
+    "muscle_gp": "Biceps"
+  },
+  {
+    "Exercise_Name": "Seated One-Arm Dumbbell Palms-Up Wrist Curl",
+    "muscle_gp": "Forearms"
+  },
+  {
+    "Exercise_Name": "Thigh adductor",
+    "muscle_gp": "Adductors"
+  },
+  {
+    "Exercise_Name": "Machine Bicep Curl",
+    "muscle_gp": "Biceps"
+  },
+  {
+    "Exercise_Name": "Seated Palms-Down Barbell Wrist Curl",
+    "muscle_gp": "Forearms"
+  },
+  {
+    "Exercise_Name": "Single-arm incline rear delt raise",
+    "muscle_gp": "Shoulders"
+  },
+  {
+    "Exercise_Name": "Alternating dumbbell front raise",
+    "muscle_gp": "Shoulders"
+  },
+  {
+    "Exercise_Name": "Hanging toes-to-bar",
+    "muscle_gp": "Abdominals"
+  },
+  {
+    "Exercise_Name": "Narrow-stance squat",
+    "muscle_gp": "Quadriceps"
+  },
+  {
+    "Exercise_Name": "Kneeling cable oblique crunch",
+    "muscle_gp": "Abdominals"
+  },
+  {
+    "Exercise_Name": "Reverse Grip Triceps Pushdown",
+    "muscle_gp": "Triceps"
+  },
+  {
+    "Exercise_Name": "Bear crawl sled drag",
+    "muscle_gp": "Quadriceps"
+  },
+  {
+    "Exercise_Name": "Rocky Pull-Ups/Pulldowns",
+    "muscle_gp": "Lats"
+  },
+  {
+    "Exercise_Name": "Snatch-Grip Behind-The-Neck Overhead Press",
+    "muscle_gp": "Shoulders"
+  },
+  {
+    "Exercise_Name": "Box Squat with Bands",
+    "muscle_gp": "Quadriceps"
+  },
+  {
+    "Exercise_Name": "Flexor Incline Dumbbell Curls",
+    "muscle_gp": "Biceps"
+  },
+  {
+    "Exercise_Name": "Seated One-Arm Dumbbell Palms-Up Wrist Curl",
+    "muscle_gp": "Forearms"
+  },
+  {
+    "Exercise_Name": "Machine Bicep Curl",
+    "muscle_gp": "Biceps"
+  },
+  {
+    "Exercise_Name": "Seated Palms-Down Barbell Wrist Curl",
+    "muscle_gp": "Forearms"
+  },
+  {
+    "Exercise_Name": "Car driver",
+    "muscle_gp": "Shoulders"
+  },
+  {
+    "Exercise_Name": "Alternating Deltoid Raise",
+    "muscle_gp": "Shoulders"
+  },
+  {
+    "Exercise_Name": "Hanging Oblique Knee Raise",
+    "muscle_gp": "Abdominals"
+  },
+  {
+    "Exercise_Name": "Bodyweight Flyes",
+    "muscle_gp": "Chest"
+  },
+  {
+    "Exercise_Name": "Standing Calf Raises",
+    "muscle_gp": "Calves"
+  },
+  {
+    "Exercise_Name": "Push-Ups - Close Triceps Position",
+    "muscle_gp": "Triceps"
+  },
+  {
+    "Exercise_Name": "One-Arm Long Bar Row",
+    "muscle_gp": "Middle Back"
+  },
+  {
+    "Exercise_Name": "Overhead cable curl",
+    "muscle_gp": "Biceps"
+  },
+  {
+    "Exercise_Name": "Single-dumbbell front raise",
+    "muscle_gp": "Shoulders"
+  },
+  {
+    "Exercise_Name": "Incline cable chest fly",
+    "muscle_gp": "Chest"
+  },
+  {
+    "Exercise_Name": "Single-leg depth squat",
+    "muscle_gp": "Quadriceps"
+  },
+  {
+    "Exercise_Name": "Dumbbell suitcase crunch",
+    "muscle_gp": "Abdominals"
+  },
+  {
+    "Exercise_Name": "Plate Twist",
+    "muscle_gp": "Abdominals"
+  },
+  {
+    "Exercise_Name": "Single-leg cable hip extension",
+    "muscle_gp": "Glutes"
+  },
+  {
+    "Exercise_Name": "Weighted Jump Squat",
+    "muscle_gp": "Quadriceps"
+  },
+  {
+    "Exercise_Name": "Squat with Chains",
+    "muscle_gp": "Quadriceps"
+  },
+  {
+    "Exercise_Name": "Gorilla Chin/Crunch",
+    "muscle_gp": "Abdominals"
+  },
+  {
+    "Exercise_Name": "Kneeling cable triceps extension",
+    "muscle_gp": "Triceps"
+  },
+  {
+    "Exercise_Name": "Kneeling Cable Crunch With Alternating Oblique Twists",
+    "muscle_gp": "Abdominals"
+  },
+  {
+    "Exercise_Name": "Bicycling",
+    "muscle_gp": "Quadriceps"
+  },
+  {
+    "Exercise_Name": "Arnold press",
+    "muscle_gp": "Shoulders"
+  },
+  {
+    "Exercise_Name": "Weighted Crunches",
+    "muscle_gp": "Abdominals"
+  },
+  {
+    "Exercise_Name": "Single-arm cable triceps extension",
+    "muscle_gp": "Triceps"
+  },
+  {
+    "Exercise_Name": "Barbell roll-out",
+    "muscle_gp": "Abdominals"
+  },
+  {
+    "Exercise_Name": "Kneeling cable crunch",
+    "muscle_gp": "Abdominals"
+  },
+  {
+    "Exercise_Name": "Exercise Ball Pull-In",
+    "muscle_gp": "Abdominals"
+  },
+  {
+    "Exercise_Name": "Hanging leg raise",
+    "muscle_gp": "Abdominals"
+  },
+  {
+    "Exercise_Name": "Barbell Ab Rollout - On Knees",
+    "muscle_gp": "Abdominals"
+  },
+  {
+    "Exercise_Name": "Barbell Squat",
+    "muscle_gp": "Quadriceps"
+  },
+  {
+    "Exercise_Name": "Decline barbell bench press",
+    "muscle_gp": "Chest"
+  },
+  {
+    "Exercise_Name": "Dumbbell Bicep Curl",
+    "muscle_gp": "Biceps"
+  },
+  {
+    "Exercise_Name": "Dumbbell Goblet Squat",
+    "muscle_gp": "Quadriceps"
+  },
+  {
+    "Exercise_Name": "Dumbbell squat",
+    "muscle_gp": "Quadriceps"
+  },
+  {
+    "Exercise_Name": "Barbell front squat",
+    "muscle_gp": "Quadriceps"
+  },
+  {
+    "Exercise_Name": "Close-grip pull-down",
+    "muscle_gp": "Lats"
+  },
+  {
+    "Exercise_Name": "Triceps Pushdown - Rope Attachment",
+    "muscle_gp": "Triceps"
+  },
+  {
+    "Exercise_Name": "Side-to-side box skip",
+    "muscle_gp": "Quadriceps"
+  },
+  {
+    "Exercise_Name": "Smith machine shoulder press",
+    "muscle_gp": "Shoulders"
+  },
+  {
+    "Exercise_Name": "Seated triceps press",
+    "muscle_gp": "Triceps"
+  },
+  {
+    "Exercise_Name": "Dumbbell Lying Supination",
+    "muscle_gp": "Forearms"
+  },
+  {
+    "Exercise_Name": "Pull-up",
+    "muscle_gp": "Lats"
+  },
+  {
+    "Exercise_Name": "Wide-grip bench press",
+    "muscle_gp": "Chest"
+  },
+  {
+    "Exercise_Name": "Close-grip EZ-bar curl",
+    "muscle_gp": "Biceps"
+  },
+  {
+    "Exercise_Name": "T-Bar Row",
+    "muscle_gp": "Middle Back"
+  },
+  {
+    "Exercise_Name": "Bent Over Two-Arm Long Bar Row",
+    "muscle_gp": "Middle Back"
+  },
+  {
+    "Exercise_Name": "Muscle Up",
+    "muscle_gp": "Lats"
+  },
+  {
+    "Exercise_Name": "Machine shoulder press",
+    "muscle_gp": "Shoulders"
+  },
+  {
+    "Exercise_Name": "Incline EZ-bar skullcrusher",
+    "muscle_gp": "Triceps"
+  },
+  {
+    "Exercise_Name": "Alternating sit-through with crunch",
+    "muscle_gp": "Middle Back"
+  },
+  {
+    "Exercise_Name": "Wide-Grip Decline Barbell Bench Press",
+    "muscle_gp": "Chest"
+  },
+  {
+    "Exercise_Name": "Rower",
+    "muscle_gp": "Middle Back"
+  },
+  {
+    "Exercise_Name": "Snatch Deadlift",
+    "muscle_gp": "Hamstrings"
+  },
+  {
+    "Exercise_Name": "Front Plate Raise",
+    "muscle_gp": "Shoulders"
+  },
+  {
+    "Exercise_Name": "Decline Close-Grip Bench To Skull Crusher",
+    "muscle_gp": "Triceps"
+  },
+  {
+    "Exercise_Name": "Lying Leg Curls",
+    "muscle_gp": "Hamstrings"
+  },
+  {
+    "Exercise_Name": "Cross-body hammer curl",
+    "muscle_gp": "Biceps"
+  },
+  {
+    "Exercise_Name": "Shotgun row",
+    "muscle_gp": "Lats"
+  },
+  {
+    "Exercise_Name": "Ab Roller",
+    "muscle_gp": "Abdominals"
+  },
+  {
+    "Exercise_Name": "Reverse-grip incline dumbbell bench press",
+    "muscle_gp": "Chest"
+  },
+  {
+    "Exercise_Name": "Leg Press",
+    "muscle_gp": "Quadriceps"
+  },
+  {
+    "Exercise_Name": "Stiff-Legged Dumbbell Deadlift",
+    "muscle_gp": "Hamstrings"
+  },
+  {
+    "Exercise_Name": "Cable Crossover",
+    "muscle_gp": "Chest"
+  },
+  {
+    "Exercise_Name": "Barbell Incline Bench Press Medium-Grip",
+    "muscle_gp": "Chest"
+  },
+  {
+    "Exercise_Name": "Incline Dumbbell Flyes",
+    "muscle_gp": "Chest"
+  },
+  {
+    "Exercise_Name": "Seated Cable Rows",
+    "muscle_gp": "Middle Back"
+  },
+  {
+    "Exercise_Name": "Tricep Dumbbell Kickback",
+    "muscle_gp": "Triceps"
+  },
+  {
+    "Exercise_Name": "Otis-Up",
+    "muscle_gp": "Abdominals"
+  },
+  {
+    "Exercise_Name": "Mountain climber",
+    "muscle_gp": "Abdominals"
+  },
+  {
+    "Exercise_Name": "Ab bicycle",
+    "muscle_gp": "Abdominals"
+  },
+  {
+    "Exercise_Name": "Barbell forward lunge",
+    "muscle_gp": "Quadriceps"
+  },
+  {
+    "Exercise_Name": "3/4 sit-up",
+    "muscle_gp": "Abdominals"
+  },
+  {
+    "Exercise_Name": "Exercise ball leg curl",
+    "muscle_gp": "Hamstrings"
+  },
+  {
+    "Exercise_Name": "Glute bridge",
+    "muscle_gp": "Glutes"
+  },
+  {
+    "Exercise_Name": "Close-Grip Front Lat Pulldown",
+    "muscle_gp": "Lats"
+  },
+  {
+    "Exercise_Name": "Dip Machine",
+    "muscle_gp": "Triceps"
+  },
+  {
+    "Exercise_Name": "Incline dumbbell row",
+    "muscle_gp": "Middle Back"
+  },
+  {
+    "Exercise_Name": "Dumbbell Lunges",
+    "muscle_gp": "Quadriceps"
+  },
+  {
+    "Exercise_Name": "Single-arm standing shoulder press",
+    "muscle_gp": "Shoulders"
+  },
+  {
+    "Exercise_Name": "Preacher Curl",
+    "muscle_gp": "Biceps"
+  },
+  {
+    "Exercise_Name": "Reverse crunch",
+    "muscle_gp": "Abdominals"
+  },
+  {
+    "Exercise_Name": "Standing Dumbbell Triceps Extension",
+    "muscle_gp": "Triceps"
+  },
+  {
+    "Exercise_Name": "Elliptical trainer",
+    "muscle_gp": "Quadriceps"
+  },
+  {
+    "Exercise_Name": "Bodyweight squat",
+    "muscle_gp": "Quadriceps"
+  },
+  {
+    "Exercise_Name": "Bent Over Two-Dumbbell Row With Palms In",
+    "muscle_gp": "Middle Back"
+  },
+  {
+    "Exercise_Name": "Hex-bar deadlift",
+    "muscle_gp": "Quadriceps"
+  },
+  {
+    "Exercise_Name": "Narrow-stance leg press",
+    "muscle_gp": "Quadriceps"
+  },
+  {
+    "Exercise_Name": "Single-leg glute bridge",
+    "muscle_gp": "Glutes"
+  },
+  {
+    "Exercise_Name": "Barbell Curls Lying Against An Incline",
+    "muscle_gp": "Biceps"
+  },
+  {
+    "Exercise_Name": "Standing Hip Circles",
+    "muscle_gp": "Abductors"
+  },
+  {
+    "Exercise_Name": "Clam",
+    "muscle_gp": "Abductors"
+  },
+  {
+    "Exercise_Name": "Narrow Stance Hack Squats",
+    "muscle_gp": "Quadriceps"
+  },
+  {
+    "Exercise_Name": "Seated Close-Grip Concentration Barbell Curl",
+    "muscle_gp": "Biceps"
+  },
+  {
+    "Exercise_Name": "Dumbbell Lying Pronation",
+    "muscle_gp": "Forearms"
+  },
+  {
+    "Exercise_Name": "Smith machine box squat",
+    "muscle_gp": "Quadriceps"
+  },
+  {
+    "Exercise_Name": "Drop Push",
+    "muscle_gp": "Chest"
+  },
+  {
+    "Exercise_Name": "Upside-down pull-up",
+    "muscle_gp": "Middle Back"
+  },
+  {
+    "Exercise_Name": "Reverse Barbell Preacher Curls",
+    "muscle_gp": "Biceps"
+  },
+  {
+    "Exercise_Name": "Close-grip EZ-bar bench press",
+    "muscle_gp": "Chest"
+  },
+  {
+    "Exercise_Name": "Incline Push-Up",
+    "muscle_gp": "Chest"
+  },
+  {
+    "Exercise_Name": "Hyperextensions With No Hyperextension Bench",
+    "muscle_gp": "Lower Back"
+  },
+  {
+    "Exercise_Name": "Dumbbell front raise",
+    "muscle_gp": "Shoulders"
+  },
+  {
+    "Exercise_Name": "Parallel Bar Dip",
+    "muscle_gp": "Triceps"
+  },
+  {
+    "Exercise_Name": "Stairmaster",
+    "muscle_gp": "Quadriceps"
+  },
+  {
+    "Exercise_Name": "Double Leg Butt Kick",
+    "muscle_gp": "Quadriceps"
+  },
+  {
+    "Exercise_Name": "Groiners",
+    "muscle_gp": "Adductors"
+  },
+  {
+    "Exercise_Name": "Neck Press",
+    "muscle_gp": "Chest"
+  },
+  {
+    "Exercise_Name": "Broad jump",
+    "muscle_gp": "Quadriceps"
+  },
+  {
+    "Exercise_Name": "Machine Squat",
+    "muscle_gp": "Quadriceps"
+  },
+  {
+    "Exercise_Name": "V-bar pull-up",
+    "muscle_gp": "Lats"
+  },
+  {
+    "Exercise_Name": "Ring dip",
+    "muscle_gp": "Triceps"
+  },
+  {
+    "Exercise_Name": "Standing One-Arm Cable Curl",
+    "muscle_gp": "Biceps"
+  },
+  {
+    "Exercise_Name": "Burpee",
+    "muscle_gp": "Quadriceps"
+  },
+  {
+    "Exercise_Name": "Double-arm triceps kick-back",
+    "muscle_gp": "Triceps"
+  },
+  {
+    "Exercise_Name": "Dumbbell reverse lunge",
+    "muscle_gp": "Quadriceps"
+  },
+  {
+    "Exercise_Name": "Seated Calf Raise",
+    "muscle_gp": "Calves"
+  },
+  {
+    "Exercise_Name": "Standing dumbbell shrug",
+    "muscle_gp": "Traps"
+  },
+  {
+    "Exercise_Name": "Calf Press On The Leg Press Machine",
+    "muscle_gp": "Calves"
+  },
+  {
+    "Exercise_Name": "Barbell step-up",
+    "muscle_gp": "Quadriceps"
+  },
+  {
+    "Exercise_Name": "Feet-elevated bench dip",
+    "muscle_gp": "Triceps"
+  },
+  {
+    "Exercise_Name": "Bent Over Barbell Row",
+    "muscle_gp": "Middle Back"
+  },
+  {
+    "Exercise_Name": "Crunches",
+    "muscle_gp": "Abdominals"
+  },
+  {
+    "Exercise_Name": "Dumbbell Alternate Bicep Curl",
+    "muscle_gp": "Biceps"
+  },
+  {
+    "Exercise_Name": "Bent-over dumbbell rear delt row",
+    "muscle_gp": "Shoulders"
+  },
+  {
+    "Exercise_Name": "External Rotation with Cable",
+    "muscle_gp": "Shoulders"
+  },
+  {
+    "Exercise_Name": "Handstand push-up",
+    "muscle_gp": "Shoulders"
+  },
+  {
+    "Exercise_Name": "Single-arm dumbbell preacher curl",
+    "muscle_gp": "Biceps"
+  },
+  {
+    "Exercise_Name": "Step-up with knee raise",
+    "muscle_gp": "Glutes"
+  },
+  {
+    "Exercise_Name": "Smith machine back squat",
+    "muscle_gp": "Quadriceps"
+  },
+  {
+    "Exercise_Name": "Incline dumbbell front raise",
+    "muscle_gp": "Shoulders"
+  },
+  {
+    "Exercise_Name": "Alternate Incline Dumbbell Curl",
+    "muscle_gp": "Biceps"
+  },
+  {
+    "Exercise_Name": "Standing dumbbell upright row",
+    "muscle_gp": "Traps"
+  },
+  {
+    "Exercise_Name": "Single-arm cable front raise",
+    "muscle_gp": "Shoulders"
+  },
+  {
+    "Exercise_Name": "Two-Arm Kettlebell Military Press",
+    "muscle_gp": "Shoulders"
+  },
+  {
+    "Exercise_Name": "Incline cable chest press",
+    "muscle_gp": "Chest"
+  },
+  {
+    "Exercise_Name": "Rope climb",
+    "muscle_gp": "Lats"
+  },
+  {
+    "Exercise_Name": "Single-arm dumbbell preacher curl",
+    "muscle_gp": "Biceps"
+  },
+  {
+    "Exercise_Name": "Step-up with knee raise",
+    "muscle_gp": "Glutes"
+  },
+  {
+    "Exercise_Name": "Incline dumbbell front raise",
+    "muscle_gp": "Shoulders"
+  },
+  {
+    "Exercise_Name": "Rope climb",
+    "muscle_gp": "Lats"
+  },
+  {
+    "Exercise_Name": "Trail Running/Walking",
+    "muscle_gp": "Quadriceps"
+  },
+  {
+    "Exercise_Name": "Standing Bradford press",
+    "muscle_gp": "Shoulders"
+  },
+  {
+    "Exercise_Name": "Neutral-grip dumbbell bench press",
+    "muscle_gp": "Chest"
+  },
+  {
+    "Exercise_Name": "Cable Chest Press",
+    "muscle_gp": "Chest"
+  },
+  {
+    "Exercise_Name": "Standing concentration curl",
+    "muscle_gp": "Biceps"
+  },
+  {
+    "Exercise_Name": "Wide-Grip Rear Pull-Up",
+    "muscle_gp": "Lats"
+  },
+  {
+    "Exercise_Name": "Kettlebell pass-through lunge",
+    "muscle_gp": "Hamstrings"
+  },
+  {
+    "Exercise_Name": "Hands-elevated push-up",
+    "muscle_gp": "Chest"
+  },
+  {
+    "Exercise_Name": "Deadlift with Bands",
+    "muscle_gp": "Lower Back"
+  },
+  {
+    "Exercise_Name": "Straight-arm rope pull-down",
+    "muscle_gp": "Lats"
+  },
+  {
+    "Exercise_Name": "Barbell Shoulder Press",
+    "muscle_gp": "Shoulders"
+  },
+  {
+    "Exercise_Name": "Power clean",
+    "muscle_gp": "Hamstrings"
+  },
+  {
+    "Exercise_Name": "Hang Snatch",
+    "muscle_gp": "Hamstrings"
+  },
+  {
+    "Exercise_Name": "Kettlebell sumo deadlift high pull",
+    "muscle_gp": "Traps"
+  },
+  {
+    "Exercise_Name": "Calf-Machine Shoulder Shrug",
+    "muscle_gp": "Traps"
+  },
+  {
+    "Exercise_Name": "Bench Press - Powerlifting",
+    "muscle_gp": "Triceps"
+  },
+  {
+    "Exercise_Name": "Rocking Standing Calf Raise",
+    "muscle_gp": "Calves"
+  },
+  {
+    "Exercise_Name": "Goblet Squat",
+    "muscle_gp": "Quadriceps"
+  },
+  {
+    "Exercise_Name": "Behind-the-head skullcrusher",
+    "muscle_gp": "Triceps"
+  },
+  {
+    "Exercise_Name": "Seated palms-up wrist curl",
+    "muscle_gp": "Forearms"
+  },
+  {
+    "Exercise_Name": "Reverse Cable Curl",
+    "muscle_gp": "Biceps"
+  },
+  {
+    "Exercise_Name": "Dumbbell side bend",
+    "muscle_gp": "Abdominals"
+  },
+  {
+    "Exercise_Name": "Lat pull-down",
+    "muscle_gp": "Lats"
+  },
+  {
+    "Exercise_Name": "Side Lateral Raise",
+    "muscle_gp": "Shoulders"
+  },
+  {
+    "Exercise_Name": "Alternating incline dumbbell biceps curl",
+    "muscle_gp": "Biceps"
+  },
+  {
+    "Exercise_Name": "Kettlebell One-Legged Deadlift",
+    "muscle_gp": "Hamstrings"
+  },
+  {
+    "Exercise_Name": "Alternate Hammer Curl",
+    "muscle_gp": "Biceps"
+  },
+  {
+    "Exercise_Name": "Decline Push-Up",
+    "muscle_gp": "Chest"
+  },
+  {
+    "Exercise_Name": "Captain's chair knee raise",
+    "muscle_gp": "Abdominals"
+  },
+  {
+    "Exercise_Name": "Triceps Pushdown",
+    "muscle_gp": "Triceps"
+  },
+  {
+    "Exercise_Name": "Low cable overhead triceps extension",
+    "muscle_gp": "Triceps"
+  },
+  {
+    "Exercise_Name": "Single-arm cable cross-over",
+    "muscle_gp": "Chest"
+  },
+  {
+    "Exercise_Name": "Seated dumbbell biceps curl",
+    "muscle_gp": "Biceps"
+  },
+  {
+    "Exercise_Name": "Battle ropes",
+    "muscle_gp": "Shoulders"
+  },
+  {
+    "Exercise_Name": "Dead bug reach",
+    "muscle_gp": "Abdominals"
+  },
+  {
+    "Exercise_Name": "Deadlift with Chains",
+    "muscle_gp": "Lower Back"
+  },
+  {
+    "Exercise_Name": "Rope Crunch",
+    "muscle_gp": "Abdominals"
+  },
+  {
+    "Exercise_Name": "Palms-Up Dumbbell Wrist Curl Over A Bench",
+    "muscle_gp": "Forearms"
+  },
+  {
+    "Exercise_Name": "Kettlebell thruster",
+    "muscle_gp": "Glutes"
+  },
+  {
+    "Exercise_Name": "Single-Arm Push-Up",
+    "muscle_gp": "Chest"
+  },
+  {
+    "Exercise_Name": "Band Hip Adductions",
+    "muscle_gp": "Adductors"
+  },
+  {
+    "Exercise_Name": "Single-arm kettlebell clean",
+    "muscle_gp": "Hamstrings"
+  },
+  {
+    "Exercise_Name": "Preacher Hammer Dumbbell Curl",
+    "muscle_gp": "Biceps"
+  },
+  {
+    "Exercise_Name": "Alternating Kettlebell Press",
+    "muscle_gp": "Shoulders"
+  },
+  {
+    "Exercise_Name": "Split Squat with Dumbbells",
+    "muscle_gp": "Quadriceps"
+  },
+  {
+    "Exercise_Name": "Standing One-Arm Dumbbell Curl Over Incline Bench",
+    "muscle_gp": "Biceps"
+  },
+  {
+    "Exercise_Name": "Standing Olympic Plate Hand Squeeze",
+    "muscle_gp": "Forearms"
+  },
+  {
+    "Exercise_Name": "Sledgehammer swing",
+    "muscle_gp": "Abdominals"
+  },
+  {
+    "Exercise_Name": "Kneeling Squat",
+    "muscle_gp": "Glutes"
+  },
+  {
+    "Exercise_Name": "Single-arm kettlebell snatch",
+    "muscle_gp": "Shoulders"
+  },
+  {
+    "Exercise_Name": "Close-grip barbell curl",
+    "muscle_gp": "Biceps"
+  },
+  {
+    "Exercise_Name": "Box jump",
+    "muscle_gp": "Hamstrings"
+  },
+  {
+    "Exercise_Name": "Standing cable crunch",
+    "muscle_gp": "Abdominals"
+  },
+  {
+    "Exercise_Name": "Leverage Incline Chest Press",
+    "muscle_gp": "Chest"
+  },
+  {
+    "Exercise_Name": "Standing barbell overhead triceps extension",
+    "muscle_gp": "Triceps"
+  },
+  {
+    "Exercise_Name": "Lying cable triceps extension",
+    "muscle_gp": "Triceps"
+  },
+  {
+    "Exercise_Name": "Kettlebell Turkish Get-Up (Squat style)",
+    "muscle_gp": "Shoulders"
+  },
+  {
+    "Exercise_Name": "Crunch - Hands Overhead",
+    "muscle_gp": "Abdominals"
+  },
+  {
+    "Exercise_Name": "Cable Internal Rotation",
+    "muscle_gp": "Shoulders"
+  },
+  {
+    "Exercise_Name": "Leg Extensions",
+    "muscle_gp": "Quadriceps"
+  },
+  {
+    "Exercise_Name": "Standing One-Arm Dumbbell Curl Over Incline Bench",
+    "muscle_gp": "Biceps"
+  },
+  {
+    "Exercise_Name": "Standing Olympic Plate Hand Squeeze",
+    "muscle_gp": "Forearms"
+  },
+  {
+    "Exercise_Name": "Sledgehammer swing",
+    "muscle_gp": "Abdominals"
+  },
+  {
+    "Exercise_Name": "Single-arm kettlebell snatch",
+    "muscle_gp": "Shoulders"
+  },
+  {
+    "Exercise_Name": "Box jump",
+    "muscle_gp": "Hamstrings"
+  },
+  {
+    "Exercise_Name": "Standing cable crunch",
+    "muscle_gp": "Abdominals"
+  },
+  {
+    "Exercise_Name": "Standing barbell overhead triceps extension",
+    "muscle_gp": "Triceps"
+  },
+  {
+    "Exercise_Name": "Lying cable triceps extension",
+    "muscle_gp": "Triceps"
+  },
+  {
+    "Exercise_Name": "Close push-up to wide push-up",
+    "muscle_gp": "Chest"
+  },
+  {
+    "Exercise_Name": "Single-arm dumbbell triceps extension",
+    "muscle_gp": "Triceps"
+  },
+  {
+    "Exercise_Name": "Butterfly",
+    "muscle_gp": "Chest"
+  },
+  {
+    "Exercise_Name": "Decline dumbbell bench press",
+    "muscle_gp": "Chest"
+  },
+  {
+    "Exercise_Name": "V-up",
+    "muscle_gp": "Abdominals"
+  },
+  {
+    "Exercise_Name": "Seated face pull",
+    "muscle_gp": "Shoulders"
+  },
+  {
+    "Exercise_Name": "Barbell Bulgarian split squat",
+    "muscle_gp": "Quadriceps"
+  },
+  {
+    "Exercise_Name": "Reverse-grip lat pull-down",
+    "muscle_gp": "Lats"
+  },
+  {
+    "Exercise_Name": "Standing Biceps Cable Curl",
+    "muscle_gp": "Biceps"
+  },
+  {
+    "Exercise_Name": "Single-arm cable seated row",
+    "muscle_gp": "Middle Back"
+  },
+  {
+    "Exercise_Name": "Single-arm kettlebell row",
+    "muscle_gp": "Chest"
+  },
+  {
+    "Exercise_Name": "Scissors Jump",
+    "muscle_gp": "Quadriceps"
+  },
+  {
+    "Exercise_Name": "Wide Stance Stiff Legs",
+    "muscle_gp": "Hamstrings"
+  },
+  {
+    "Exercise_Name": "Rack Pull with Bands",
+    "muscle_gp": "Lower Back"
+  },
+  {
+    "Exercise_Name": "Drag curl",
+    "muscle_gp": "Biceps"
+  },
+  {
+    "Exercise_Name": "Close push-up to wide push-up",
+    "muscle_gp": "Chest"
+  },
+  {
+    "Exercise_Name": "Single-arm dumbbell triceps extension",
+    "muscle_gp": "Triceps"
+  },
+  {
+    "Exercise_Name": "Butterfly",
+    "muscle_gp": "Chest"
+  },
+  {
+    "Exercise_Name": "Seated face pull",
+    "muscle_gp": "Shoulders"
+  },
+  {
+    "Exercise_Name": "Rack Pull with Bands",
+    "muscle_gp": "Lower Back"
+  },
+  {
+    "Exercise_Name": "Drag curl",
+    "muscle_gp": "Biceps"
+  },
+  {
+    "Exercise_Name": "Hang Clean - Below the Knees",
+    "muscle_gp": "Quadriceps"
+  },
+  {
+    "Exercise_Name": "Decline oblique crunch",
+    "muscle_gp": "Abdominals"
+  },
+  {
+    "Exercise_Name": "Dumbbell external shoulder rotation",
+    "muscle_gp": "Shoulders"
+  },
+  {
+    "Exercise_Name": "Single-arm bent-over cable rear delt fly",
+    "muscle_gp": "Shoulders"
+  },
+  {
+    "Exercise_Name": "Clean",
+    "muscle_gp": "Hamstrings"
+  },
+  {
+    "Exercise_Name": "Single-arm incline lateral raise",
+    "muscle_gp": "Shoulders"
+  },
+  {
+    "Exercise_Name": "Decline bar press sit-up",
+    "muscle_gp": "Abdominals"
+  },
+  {
+    "Exercise_Name": "Barbell rear delt bent-over row",
+    "muscle_gp": "Shoulders"
+  },
+  {
+    "Exercise_Name": "Calf Press",
+    "muscle_gp": "Calves"
+  },
+  {
+    "Exercise_Name": "Kettlebell alternating renegade row",
+    "muscle_gp": "Middle Back"
+  },
+  {
+    "Exercise_Name": "Bosu Ball Cable Crunch With Side Bends",
+    "muscle_gp": "Abdominals"
+  },
+  {
+    "Exercise_Name": "Stomach Vacuum",
+    "muscle_gp": "Abdominals"
+  },
+  {
+    "Exercise_Name": "Hammer Grip Incline DB Bench Press",
+    "muscle_gp": "Chest"
+  },
+  {
+    "Exercise_Name": "Wide-grip hands-elevated push-up",
+    "muscle_gp": "Chest"
+  },
+  {
+    "Exercise_Name": "Decline Dumbbell Triceps Extension",
+    "muscle_gp": "Triceps"
+  },
+  {
+    "Exercise_Name": "Jumping jack-",
+    "muscle_gp": "Quadriceps"
+  },
+  {
+    "Exercise_Name": "Push-Ups With Feet On An Exercise Ball",
+    "muscle_gp": "Chest"
+  },
+  {
+    "Exercise_Name": "Seated cable shoulder press",
+    "muscle_gp": "Shoulders"
+  },
+  {
+    "Exercise_Name": "Barbell hack squat",
+    "muscle_gp": "Quadriceps"
+  },
+  {
+    "Exercise_Name": "Feet-elevated push-up",
+    "muscle_gp": "Chest"
+  },
+  {
+    "Exercise_Name": "Good Morning",
+    "muscle_gp": "Hamstrings"
+  },
+  {
+    "Exercise_Name": "Leverage Chest Press",
+    "muscle_gp": "Chest"
+  },
+  {
+    "Exercise_Name": "Gironda Sternum Chins",
+    "muscle_gp": "Lats"
+  },
+  {
+    "Exercise_Name": "Exercise ball crunch",
+    "muscle_gp": "Abdominals"
+  },
+  {
+    "Exercise_Name": "Seated rear delt fly",
+    "muscle_gp": "Shoulders"
+  },
+  {
+    "Exercise_Name": "Standing face pull",
+    "muscle_gp": "Shoulders"
+  },
+  {
+    "Exercise_Name": "Glute Ham Raise",
+    "muscle_gp": "Hamstrings"
+  },
+  {
+    "Exercise_Name": "Russian twist",
+    "muscle_gp": "Abdominals"
+  },
+  {
+    "Exercise_Name": "Seated Flat Bench Leg Pull-In",
+    "muscle_gp": "Abdominals"
+  },
+  {
+    "Exercise_Name": "Barbell shrug",
+    "muscle_gp": "Traps"
+  },
+  {
+    "Exercise_Name": "Seated Flat Bench Leg Pull-In",
+    "muscle_gp": "Abdominals"
+  },
+  {
+    "Exercise_Name": "Barbell shrug",
+    "muscle_gp": "Traps"
+  },
+  {
+    "Exercise_Name": "Standing cable rear delt row",
+    "muscle_gp": "Shoulders"
+  },
+  {
+    "Exercise_Name": "Flat Bench Lying Leg Raise",
+    "muscle_gp": "Abdominals"
+  },
+  {
+    "Exercise_Name": "Hack Squat",
+    "muscle_gp": "Quadriceps"
+  },
+  {
+    "Exercise_Name": "Dumbbell skullcrusher",
+    "muscle_gp": "Triceps"
+  },
+  {
+    "Exercise_Name": "Man-maker",
+    "muscle_gp": "Middle Back"
+  },
+  {
+    "Exercise_Name": "Pallof press",
+    "muscle_gp": "Abdominals"
+  },
+  {
+    "Exercise_Name": "Knees tucked crunch",
+    "muscle_gp": "Abdominals"
+  },
+  {
+    "Exercise_Name": "Straight-arm dumbbell pull-over",
+    "muscle_gp": "Chest"
+  },
+  {
+    "Exercise_Name": "Arms-crossed jump squat",
+    "muscle_gp": "Quadriceps"
+  },
+  {
+    "Exercise_Name": "Decline Smith Press",
+    "muscle_gp": "Chest"
+  },
+  {
+    "Exercise_Name": "Band Skull Crusher",
+    "muscle_gp": "Triceps"
+  },
+  {
+    "Exercise_Name": "Side Wrist Pull",
+    "muscle_gp": "Shoulders"
+  },
+  {
+    "Exercise_Name": "Isometric Wipers",
+    "muscle_gp": "Chest"
+  },
+  {
+    "Exercise_Name": "Skating",
+    "muscle_gp": "Quadriceps"
+  },
+  {
+    "Exercise_Name": "Cable cross-over",
+    "muscle_gp": "Chest"
+  },
+  {
+    "Exercise_Name": "Treadmill running",
+    "muscle_gp": "Quadriceps"
+  },
+  {
+    "Exercise_Name": "One Arm Pronated Dumbbell Triceps Extension",
+    "muscle_gp": "Triceps"
+  },
+  {
+    "Exercise_Name": "Single-arm kettlebell clean and jerk",
+    "muscle_gp": "Shoulders"
+  },
+  {
+    "Exercise_Name": "Side To Side Chins",
+    "muscle_gp": "Lats"
+  },
+  {
+    "Exercise_Name": "Incline Dumbbell Bench With Palms Facing In",
+    "muscle_gp": "Chest"
+  },
+  {
+    "Exercise_Name": "Seated palms-down wrist curl",
+    "muscle_gp": "Forearms"
+  },
+  {
+    "Exercise_Name": "Standing leg swing",
+    "muscle_gp": "Hamstrings"
+  },
+  {
+    "Exercise_Name": "Clock push-up",
+    "muscle_gp": "Chest"
+  },
+  {
+    "Exercise_Name": "Machine seated row",
+    "muscle_gp": "Lats"
+  },
+  {
+    "Exercise_Name": "Lying Face Up Plate Neck Resistance",
+    "muscle_gp": "Neck"
+  },
+  {
+    "Exercise_Name": "Weighted sissy squat",
+    "muscle_gp": "Quadriceps"
+  },
+  {
+    "Exercise_Name": "Jog In Place",
+    "muscle_gp": "Quadriceps"
+  },
+  {
+    "Exercise_Name": "Dumbbell Raise",
+    "muscle_gp": "Shoulders"
+  },
+  {
+    "Exercise_Name": "Palms-Down Dumbbell Wrist Curl Over A Bench",
+    "muscle_gp": "Forearms"
+  },
+  {
+    "Exercise_Name": "One Arm Supinated Dumbbell Triceps Extension",
+    "muscle_gp": "Triceps"
+  },
+  {
+    "Exercise_Name": "Jog In Place",
+    "muscle_gp": "Quadriceps"
+  },
+  {
+    "Exercise_Name": "Dumbbell Raise",
+    "muscle_gp": "Shoulders"
+  },
+  {
+    "Exercise_Name": "Palms-Down Dumbbell Wrist Curl Over A Bench",
+    "muscle_gp": "Forearms"
+  },
+  {
+    "Exercise_Name": "One Arm Supinated Dumbbell Triceps Extension",
+    "muscle_gp": "Triceps"
+  },
+  {
+    "Exercise_Name": "Stationary bike",
+    "muscle_gp": "Quadriceps"
+  },
+  {
+    "Exercise_Name": "Dumbbell bent-over row",
+    "muscle_gp": "Middle Back"
+  },
+  {
+    "Exercise_Name": "Barbell thruster",
+    "muscle_gp": "Quadriceps"
+  },
+  {
+    "Exercise_Name": "Flutter Kicks",
+    "muscle_gp": "Glutes"
+  },
+  {
+    "Exercise_Name": "Dumbbell sumo squat",
+    "muscle_gp": "Quadriceps"
+  },
+  {
+    "Exercise_Name": "Barbell upright row",
+    "muscle_gp": "Shoulders"
+  },
+  {
+    "Exercise_Name": "Superman",
+    "muscle_gp": "Lower Back"
+  },
+  {
+    "Exercise_Name": "Straight-Arm Pulldown",
+    "muscle_gp": "Lats"
+  },
+  {
+    "Exercise_Name": "Barbell stiff-legged deadlift",
+    "muscle_gp": "Hamstrings"
+  },
+  {
+    "Exercise_Name": "Standing One-Arm Dumbbell Triceps Extension",
+    "muscle_gp": "Triceps"
+  },
+  {
+    "Exercise_Name": "Smith machine bench press",
+    "muscle_gp": "Chest"
+  },
+  {
+    "Exercise_Name": "Seated Side Lateral Raise",
+    "muscle_gp": "Shoulders"
+  },
+  {
+    "Exercise_Name": "Dumbbell Lying Rear Lateral Raise",
+    "muscle_gp": "Shoulders"
+  },
+  {
+    "Exercise_Name": "Dumbbell preacher curl",
+    "muscle_gp": "Biceps"
+  },
+  {
+    "Exercise_Name": "Front Raise And Pullover",
+    "muscle_gp": "Chest"
+  },
+  {
+    "Exercise_Name": "Dumbbell seated box jump",
+    "muscle_gp": "Quadriceps"
+  },
+  {
+    "Exercise_Name": "Middle Back Shrug",
+    "muscle_gp": "Middle Back"
+  },
+  {
+    "Exercise_Name": "Incline face-down bar front raise",
+    "muscle_gp": "Shoulders"
+  },
+  {
+    "Exercise_Name": "Butt-Ups",
+    "muscle_gp": "Abdominals"
+  },
+  {
+    "Exercise_Name": "Band Good Morning (Pull Through)",
+    "muscle_gp": "Hamstrings"
+  },
+  {
+    "Exercise_Name": "Bodyweight Reverse Lunge",
+    "muscle_gp": "Quadriceps"
+  },
+  {
+    "Exercise_Name": "Seated One-Arm Dumbbell Palms-Down Wrist Curl",
+    "muscle_gp": "Forearms"
+  },
+  {
+    "Exercise_Name": "Glute Kickback",
+    "muscle_gp": "Glutes"
+  },
+  {
+    "Exercise_Name": "Treadmill jogging",
+    "muscle_gp": "Quadriceps"
+  },
+  {
+    "Exercise_Name": "Plate Pinch",
+    "muscle_gp": "Forearms"
+  },
+  {
+    "Exercise_Name": "Yates Row Reverse Grip",
+    "muscle_gp": "Middle Back"
+  },
+  {
+    "Exercise_Name": "Linear Acceleration Wall Drill",
+    "muscle_gp": "Hamstrings"
+  },
+  {
+    "Exercise_Name": "Reverse-grip bench press",
+    "muscle_gp": "Triceps"
+  },
+  {
+    "Exercise_Name": "Leverage Decline Chest Press",
+    "muscle_gp": "Chest"
+  },
+  {
+    "Exercise_Name": "Chain Handle Extension",
+    "muscle_gp": "Triceps"
+  }
+]
