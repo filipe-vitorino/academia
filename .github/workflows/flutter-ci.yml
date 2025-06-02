@@ -3,15 +3,19 @@ name: Flutter CI/CD
 on:
   push:
     branches:
-      - main   # Ou a branch que você usa
+      - master   # Ou a branch que você usa
   pull_request:
     branches:
-      - main
+      - master
 
 jobs:
   build:
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
 
-    runs-on: ubuntu-latest
+    runs-on: ${{ matrix.os }}
+    
 
     steps:
       - name: Checkout repository
