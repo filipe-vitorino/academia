@@ -1,0 +1,112 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:3730207614500060661",
+      "lastPropertyId": "5:5251216810958037320",
+      "name": "Exercicio",
+      "properties": [
+        {
+          "id": "1:795786516653758274",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:3429361075056800770",
+          "name": "nome",
+          "type": 9
+        },
+        {
+          "id": "3:599483377609773589",
+          "name": "musculoAlvo",
+          "type": 9
+        },
+        {
+          "id": "4:5412535689682827506",
+          "name": "series",
+          "type": 6
+        },
+        {
+          "id": "5:5251216810958037320",
+          "name": "repeticoes",
+          "type": 6
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "2:6192234135157461721",
+      "lastPropertyId": "2:5372589789326879686",
+      "name": "Ficha",
+      "properties": [
+        {
+          "id": "1:2376668638858384427",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:5372589789326879686",
+          "name": "titulo",
+          "type": 9
+        }
+      ],
+      "relations": [
+        {
+          "id": "1:699489905423119256",
+          "name": "exercicios",
+          "targetId": "1:3730207614500060661"
+        }
+      ]
+    },
+    {
+      "id": "3:6232979796326521108",
+      "lastPropertyId": "4:3215014983567437591",
+      "name": "Usuario",
+      "properties": [
+        {
+          "id": "1:8360539039409234575",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:9136357695803670635",
+          "name": "nome",
+          "type": 9
+        },
+        {
+          "id": "3:6997175401049520785",
+          "name": "email",
+          "type": 9
+        },
+        {
+          "id": "4:3215014983567437591",
+          "name": "password",
+          "type": 9
+        }
+      ],
+      "relations": [
+        {
+          "id": "2:2077406152030735232",
+          "name": "fichas",
+          "targetId": "2:6192234135157461721"
+        }
+      ]
+    }
+  ],
+  "lastEntityId": "3:6232979796326521108",
+  "lastIndexId": "0:0",
+  "lastRelationId": "2:2077406152030735232",
+  "lastSequenceId": "0:0",
+  "modelVersion": 5,
+  "modelVersionParserMinimum": 5,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [],
+  "retiredRelationUids": [],
+  "version": 1
+}
