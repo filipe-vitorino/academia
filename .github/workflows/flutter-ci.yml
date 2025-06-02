@@ -32,8 +32,4 @@ jobs:
       - name: Run tests
         run: flutter test
 
-      # Se quiser buildar o app (exemplo para Android APK)
-      - name: Build APK
-        run: flutter build apk --release
-
       # Aqui você pode adicionar steps para deploy, upload artifacts etc.
