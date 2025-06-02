@@ -1,0 +1,35 @@
+name: Flutter CI/CD
+
+on:
+  push:
+    branches:
+      - main   # Ou a branch que você usa
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Setup Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          flutter-version: '3.29.3'  # Sua versão do Flutter
+
+      - name: Get dependencies
+        run: flutter pub get
+
+      - name: Run tests
+        run: flutter test
+
+      # Se quiser buildar o app (exemplo para Android APK)
+      - name: Build APK
+        run: flutter build apk --release
+
+      # Aqui você pode adicionar steps para deploy, upload artifacts etc.
