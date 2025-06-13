@@ -30,8 +30,9 @@ O sistema é composto por três componentes principais:
 
 ### Fichas
 - Criação de fichas de treino
+- Visualização de fichas
 - Adição e remoção de exercícios nas fichas
-- Definição de séries e repetições para cada exercício
+
 
 <p float="left">
   <img src="assets/ficha1.png" width="45%" />
@@ -43,7 +44,7 @@ O sistema é composto por três componentes principais:
 ### Exercícios
 - Recuperação de exercícios a partir de um **dataset** organizado por grupo muscular, nome e tipo
 - Busca e seleção de exercícios
-- Visualização detalhada dos exercícios
+- Definição de séries e repetições para cada exercício
 
 <p float="left">
   <img src="assets/exec1.png" width="30%" />
