@@ -22,8 +22,8 @@ O sistema é composto por três componentes principais:
 - Gerenciamento de sessão (sessão ativa, logout automático)
 
 <p float="left">
-  <img src="assets/images/Captura de tela 2025-06-13 110815.png" width="45%" />
-  <img src="assets/images/Captura de tela 2025-06-13 110830.png" width="45%" />
+  <img src="assets/login.png" width="45%" />
+  <img src="assets/cadastro.png" width="45%" />
 </p>
 
 ---
@@ -33,7 +33,10 @@ O sistema é composto por três componentes principais:
 - Adição e remoção de exercícios nas fichas
 - Definição de séries e repetições para cada exercício
 
->  *[Adicione aqui imagens da criação e edição de fichas]*
+<p float="left">
+  <img src="assets/ficha1.png" width="45%" />
+  <img src="assets/ficha2.png" width="45%" />
+</p>
 
 ---
 
@@ -42,8 +45,11 @@ O sistema é composto por três componentes principais:
 - Busca e seleção de exercícios
 - Visualização detalhada dos exercícios
 
->  *[Adicione aqui imagens da busca e visualização dos exercícios]*
-
+<p float="left">
+  <img src="assets/exec1.png" width="30%" />
+  <img src="assets/exec2.png" width="30%" />
+  <img src="assets/exec3.png" width="30%" />
+</p>
 ---
 
 ## Testes Automatizados
