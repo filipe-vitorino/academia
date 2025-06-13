@@ -1,5 +1,8 @@
 # Fitness App - Gerenciador de Fichas de Exercícios
 
+Integrantes:
+- Filipe Barros Vitorino
+
 Este projeto foi desenvolvido utilizando o **Flutter**, um framework criado pelo Google para o desenvolvimento de aplicações **multiplataforma** com uma única base de código.
 
 Embora o Flutter permita a criação de apps para web, desktop e iOS, o foco deste projeto foi a plataforma **Android**, onde o aplicativo foi projetado, implementado e testado.
