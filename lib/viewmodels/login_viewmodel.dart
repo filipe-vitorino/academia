@@ -22,8 +22,8 @@ class LoginViewModel extends ChangeNotifier {
     isLoading = false;
 
     if (sucesso != null) {
-      errorMessage = null;
       sessao(sucesso);
+      errorMessage = null;
     } else {
       errorMessage = 'Usuário ou senha inválidos';
     }
@@ -34,6 +34,7 @@ class LoginViewModel extends ChangeNotifier {
   bool sessao(int user_Id) {
     if (user_Id != null) {
       UserSession().login(user_Id);
+
       return true;
     }
 
