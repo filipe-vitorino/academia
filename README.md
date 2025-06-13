@@ -55,7 +55,7 @@ Essa biblioteca permite criar **testes unitários**, **de widget** e **de integr
 - `setUp()` e `tearDown()` para controle do ciclo de vida dos testes
 - `testWidgets()` para testes em interfaces Flutter
 
-### Testes desenvolvidos:
+### Testes Unitários:
 
 - **Gerenciamento de sessão**:
   - Validação do comportamento de login, logout e persistência do usuário autenticado
