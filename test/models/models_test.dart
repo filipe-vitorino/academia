@@ -62,4 +62,34 @@ void main() {
     expect(user.fichas[0].exercicios.length, 2);
     expect(user.fichas[0].exercicios[1].nome, "supino");
   });
+
+  test('Deve remover uma ficha a um usuário', () {
+    Ficha ficha1 = Ficha(titulo: "Ficha 1");
+    Ficha ficha2 = Ficha(titulo: "Ficha 2");
+    Usuario user = Usuario(
+      nome: "Fulano",
+      email: "teste@teste",
+      password: "password",
+    );
+    user.fichas.addAll([ficha1, ficha2]);
+    user.fichas.removeWhere((f) => f.titulo == "Ficha 1");
+
+    expect(user.fichas.length, 1);
+  });
+
+  test('Deve alterar exercicio de uma ficha', () {
+    ficha = Ficha(titulo: "Ficha 1");
+    Exercicio exercicio_1 = Exercicio(
+      nome: "Agachamento",
+      musculoAlvo: 'coxa',
+      series: 12,
+      repeticoes: 3,
+    );
+    ficha.exercicios.add(exercicio_1);
+    ficha.exercicios[0].series = 3;
+    ficha.exercicios[0].repeticoes = 10;
+
+    expect(ficha.exercicios[0].repeticoes, 10);
+    expect(ficha.exercicios[0].series, 3);
+  });
 }
