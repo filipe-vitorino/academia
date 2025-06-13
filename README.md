@@ -21,7 +21,10 @@ O sistema é composto por três componentes principais:
 - Login com verificação de credenciais
 - Gerenciamento de sessão (sessão ativa, logout automático)
 
-> *[Adicione aqui imagens ilustrativas da interface de login/cadastro]*
+<p float="left">
+  <img src="assets/images/Captura de tela 2025-06-13 110815.png" width="45%" />
+  <img src="assets/images/Captura de tela 2025-06-13 110830.png" width="45%" />
+</p>
 
 ---
 
