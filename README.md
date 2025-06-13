@@ -6,7 +6,7 @@ Embora o Flutter permita a criação de apps para web, desktop e iOS, o foco des
 
 ---
 
-## 📋 Descrição do Projeto
+## Descrição do Projeto
 
 O tema do projeto é **fitness**, oferecendo ao usuário a possibilidade de **criar fichas de treino personalizadas**, com exercícios específicos selecionados a partir de uma base de dados completa.
 
@@ -21,7 +21,7 @@ O sistema é composto por três componentes principais:
 - Login com verificação de credenciais
 - Gerenciamento de sessão (sessão ativa, logout automático)
 
-> 📸 *[Adicione aqui imagens ilustrativas da interface de login/cadastro]*
+> *[Adicione aqui imagens ilustrativas da interface de login/cadastro]*
 
 ---
 
@@ -30,7 +30,7 @@ O sistema é composto por três componentes principais:
 - Adição e remoção de exercícios nas fichas
 - Definição de séries e repetições para cada exercício
 
-> 📸 *[Adicione aqui imagens da criação e edição de fichas]*
+>  *[Adicione aqui imagens da criação e edição de fichas]*
 
 ---
 
@@ -39,7 +39,7 @@ O sistema é composto por três componentes principais:
 - Busca e seleção de exercícios
 - Visualização detalhada dos exercícios
 
-> 📸 *[Adicione aqui imagens da busca e visualização dos exercícios]*
+>  *[Adicione aqui imagens da busca e visualização dos exercícios]*
 
 ---
 
@@ -49,7 +49,7 @@ Os testes foram implementados utilizando a biblioteca oficial do Flutter chamada
 
 Essa biblioteca permite criar **testes unitários**, **de widget** e **de integração** com ferramentas poderosas para garantir a qualidade do código.
 
-### 🔧 Principais recursos usados:
+###  Principais recursos usados:
 - `test()` e `group()` para agrupar e organizar testes unitários
 - `expect()` com **matchers** para validar comportamentos
 - `setUp()` e `tearDown()` para controle do ciclo de vida dos testes
