@@ -37,4 +37,29 @@ void main() {
     expect(user.fichas.length, 1);
     expect(user.fichas[0].titulo, "Ficha 1");
   });
+
+  test('Deve recuperar os exercicios do usuario a partir de uma ficha', () {
+    ficha = Ficha(titulo: "Ficha 1");
+    Exercicio exercicio_1 = Exercicio(
+      nome: "Agachamento",
+      musculoAlvo: 'coxa',
+      series: 12,
+      repeticoes: 3,
+    );
+    Exercicio exercicio_2 = Exercicio(
+      nome: "supino",
+      musculoAlvo: "peito",
+      series: 2,
+      repeticoes: 10,
+    );
+    ficha.exercicios.addAll([exercicio_1, exercicio_2]);
+    Usuario user = Usuario(
+      nome: "Fulano",
+      email: "teste@teste",
+      password: "password",
+    );
+    user.fichas.add(ficha);
+    expect(user.fichas[0].exercicios.length, 2);
+    expect(user.fichas[0].exercicios[1].nome, "supino");
+  });
 }
