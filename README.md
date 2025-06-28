@@ -1,5 +1,8 @@
 # Fitness App - Gerenciador de Fichas de Exercícios
 
+Integrantes:
+- Filipe Barros Vitorino
+
 Este projeto foi desenvolvido utilizando o **Flutter**, um framework criado pelo Google para o desenvolvimento de aplicações **multiplataforma** com uma única base de código.
 
 Embora o Flutter permita a criação de apps para web, desktop e iOS, o foco deste projeto foi a plataforma **Android**, onde o aplicativo foi projetado, implementado e testado.
@@ -22,28 +25,35 @@ O sistema é composto por três componentes principais:
 - Gerenciamento de sessão (sessão ativa, logout automático)
 
 <p float="left">
-  <img src="assets/images/Captura de tela 2025-06-13 110815.png" width="45%" />
-  <img src="assets/images/Captura de tela 2025-06-13 110830.png" width="45%" />
+  <img src="assets/login.png" width="45%" />
+  <img src="assets/cadastro.png" width="45%" />
 </p>
 
 ---
 
 ### Fichas
 - Criação de fichas de treino
+- Visualização de fichas
 - Adição e remoção de exercícios nas fichas
-- Definição de séries e repetições para cada exercício
 
->  *[Adicione aqui imagens da criação e edição de fichas]*
+
+<p float="left">
+  <img src="assets/ficha1.png" width="45%" />
+  <img src="assets/ficha2.png" width="45%" />
+</p>
 
 ---
 
 ### Exercícios
 - Recuperação de exercícios a partir de um **dataset** organizado por grupo muscular, nome e tipo
 - Busca e seleção de exercícios
-- Visualização detalhada dos exercícios
+- Definição de séries e repetições para cada exercício
 
->  *[Adicione aqui imagens da busca e visualização dos exercícios]*
-
+<p float="left">
+  <img src="assets/exec1.png" width="30%" />
+  <img src="assets/exec2.png" width="30%" />
+  <img src="assets/exec3.png" width="30%" />
+</p>
 ---
 
 ## Testes Automatizados
