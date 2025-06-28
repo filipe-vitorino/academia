@@ -24,6 +24,7 @@ class LoginPage extends StatelessWidget {
               children: [
                 const SizedBox(height: 60),
                 TextField(
+                  key: const Key('login_email_field'),
                   controller: vm.usuarioController,
                   decoration: const InputDecoration(
                     labelText: 'E-mail',
@@ -32,6 +33,7 @@ class LoginPage extends StatelessWidget {
                 ),
                 const SizedBox(height: 16),
                 TextField(
+                  key: const Key('login_senha_field'),
                   controller: vm.senhaController,
                   obscureText: true,
                   decoration: const InputDecoration(
@@ -47,6 +49,7 @@ class LoginPage extends StatelessWidget {
                   ),
                 const SizedBox(height: 16),
                 ElevatedButton(
+                  key: const Key('login_button'),
                   onPressed: () async {
                     await vm.autenticar();
                     if (vm.errorMessage == null) {
@@ -67,6 +70,7 @@ class LoginPage extends StatelessWidget {
                           : const Text('Entrar'),
                 ),
                 TextButton(
+                  key: const Key('goto_cadastro_button'),
                   onPressed: () {
                     Navigator.push(
                       context,

@@ -47,6 +47,7 @@ class _CadastroPageState extends State<CadastroPage> {
           child: ListView(
             children: [
               TextField(
+                key: const Key('cadastro_nome_field'),
                 onChanged: viewModel.setNome,
                 decoration: InputDecoration(
                   labelText: 'Nome',
@@ -56,6 +57,7 @@ class _CadastroPageState extends State<CadastroPage> {
 
               const SizedBox(height: 16),
               TextField(
+                key: const Key('cadastro_email_field'),
                 onChanged: viewModel.setEmail,
                 decoration: InputDecoration(
                   labelText: 'Email',
@@ -64,6 +66,7 @@ class _CadastroPageState extends State<CadastroPage> {
               ),
               const SizedBox(height: 16),
               TextField(
+                key: const Key('cadastro_senha_field'),
                 controller: _senhaController,
                 obscureText: true,
                 onChanged: viewModel.setSenha,
@@ -74,6 +77,7 @@ class _CadastroPageState extends State<CadastroPage> {
               ),
               const SizedBox(height: 16),
               TextFormField(
+                key: const Key('cadastro_confirmar_senha_field'),
                 controller: _confirmarSenhaController,
                 obscureText: true,
                 decoration: const InputDecoration(
@@ -87,6 +91,7 @@ class _CadastroPageState extends State<CadastroPage> {
               ),
               const SizedBox(height: 32),
               ElevatedButton(
+                key: const Key('cadastro_submit_button'),
                 onPressed:
                     viewModel.formularioValido
                         ? viewModel.cadastrarUsuario
