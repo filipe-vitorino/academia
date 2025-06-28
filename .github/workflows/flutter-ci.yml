@@ -35,9 +35,8 @@ jobs:
 
   # Job 2: Roda os testes de integração (E2E) em um emulador Android
   integration_tests:
-    # Garante que este job só rode se o job de testes unitários passar
     needs: unit_and_widget_tests 
-    runs-on: ubuntu-latest # Usamos Ubuntu por ser mais rápido e barato
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
@@ -46,24 +45,28 @@ jobs:
       - name: Setup Java
         uses: actions/setup-java@v3
         with:
-          distribution: 'zulu' # Uma distribuição comum de JDK
+          distribution: 'zulu'
           java-version: '17'
 
       - name: Setup Flutter
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.29.3'
+          flutter-version: '3.29.3' # Adapte se necessário
           cache: true
 
       - name: Get dependencies
         run: flutter pub get
       
-      # A MÁGICA ACONTECE AQUI!
       - name: Run integration tests on Android Emulator
         uses: reactivecircus/android-emulator-runner@v2
         with:
-          api-level: 30 # Nível da API do Android para o emulador
-          target: google_apis
+          # --- Configuração de Alta Estabilidade ---
+          api-level: 29
+          target: default
           arch: x86_64
-          # O script que será executado DENTRO do emulador
+          ram-size: 1536m
+          enable-hw-acceleration: false
+          emulator-boot-timeout: 600
+          
+          # --- Script a ser executado ---
           script: flutter test integration_test
