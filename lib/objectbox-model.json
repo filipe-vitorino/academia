@@ -5,7 +5,7 @@
   "entities": [
     {
       "id": "1:3730207614500060661",
-      "lastPropertyId": "5:5251216810958037320",
+      "lastPropertyId": "6:943439504384151127",
       "name": "Exercicio",
       "properties": [
         {
@@ -33,13 +33,21 @@
           "id": "5:5251216810958037320",
           "name": "repeticoes",
           "type": 6
+        },
+        {
+          "id": "6:943439504384151127",
+          "name": "fichaId",
+          "type": 11,
+          "flags": 520,
+          "indexId": "1:8053598421654225609",
+          "relationTarget": "Ficha"
         }
       ],
       "relations": []
     },
     {
       "id": "2:6192234135157461721",
-      "lastPropertyId": "2:5372589789326879686",
+      "lastPropertyId": "3:6982914816362130500",
       "name": "Ficha",
       "properties": [
         {
@@ -52,6 +60,14 @@
           "id": "2:5372589789326879686",
           "name": "titulo",
           "type": 9
+        },
+        {
+          "id": "3:6982914816362130500",
+          "name": "usuarioId",
+          "type": 11,
+          "flags": 520,
+          "indexId": "2:5455036899753693929",
+          "relationTarget": "Usuario"
         }
       ],
       "relations": [
@@ -89,17 +105,11 @@
           "type": 9
         }
       ],
-      "relations": [
-        {
-          "id": "2:2077406152030735232",
-          "name": "fichas",
-          "targetId": "2:6192234135157461721"
-        }
-      ]
+      "relations": []
     }
   ],
   "lastEntityId": "3:6232979796326521108",
-  "lastIndexId": "0:0",
+  "lastIndexId": "2:5455036899753693929",
   "lastRelationId": "2:2077406152030735232",
   "lastSequenceId": "0:0",
   "modelVersion": 5,
@@ -107,6 +117,8 @@
   "retiredEntityUids": [],
   "retiredIndexUids": [],
   "retiredPropertyUids": [],
-  "retiredRelationUids": [],
+  "retiredRelationUids": [
+    2077406152030735232
+  ],
   "version": 1
 }
