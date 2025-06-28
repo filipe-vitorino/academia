@@ -9,14 +9,14 @@ on:
       - master
 
 jobs:
-  build:
+  # Job 1: Roda testes rápidos (unitários e de widget) em todas as plataformas
+  unit_and_widget_tests:
     strategy:
       matrix:
         os: [ubuntu-latest, windows-latest, macos-latest]
 
     runs-on: ${{ matrix.os }}
     
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
@@ -24,12 +24,46 @@ jobs:
       - name: Setup Flutter
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.29.3'  # Sua versão do Flutter
+          flutter-version: '3.29.3' # Sua versão do Flutter
+          cache: true # Habilita o cache para acelerar os builds
 
       - name: Get dependencies
         run: flutter pub get
 
-      - name: Run tests
+      - name: Run unit and widget tests
         run: flutter test
 
-      # Aqui você pode adicionar steps para deploy, upload artifacts etc.
+  # Job 2: Roda os testes de integração (E2E) em um emulador Android
+  integration_tests:
+    # Garante que este job só rode se o job de testes unitários passar
+    needs: unit_and_widget_tests 
+    runs-on: ubuntu-latest # Usamos Ubuntu por ser mais rápido e barato
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Setup Java
+        uses: actions/setup-java@v3
+        with:
+          distribution: 'zulu' # Uma distribuição comum de JDK
+          java-version: '11'
+
+      - name: Setup Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          flutter-version: '3.29.3'
+          cache: true
+
+      - name: Get dependencies
+        run: flutter pub get
+      
+      # A MÁGICA ACONTECE AQUI!
+      - name: Run integration tests on Android Emulator
+        uses: reactivecircus/android-emulator-runner@v2
+        with:
+          api-level: 30 # Nível da API do Android para o emulador
+          target: google_apis
+          arch: x86_64
+          # O script que será executado DENTRO do emulador
+          script: flutter test integration_test
