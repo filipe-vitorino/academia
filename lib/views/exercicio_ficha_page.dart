@@ -150,7 +150,9 @@ class _DetalhesFichaPageState extends State<DetalhesFichaPage> {
         onPressed:
             () => Navigator.push(
               context,
-              MaterialPageRoute(builder: (context) => AddExercicioPage()),
+              MaterialPageRoute(
+                builder: (context) => AddExercicioPage(idFicha: widget.idFicha),
+              ),
             ),
         icon: const Icon(Icons.add),
         label: const Text('Novo Exercicio'),

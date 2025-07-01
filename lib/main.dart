@@ -31,9 +31,7 @@ void main() async {
         ChangeNotifierProvider(create: (_) => ListaViewModel()),
         ChangeNotifierProvider(create: (_) => FichaViewmodel()),
         ChangeNotifierProvider(
-          create:
-              (_) =>
-                  CsvViewModel(CsvService())..loadData('assets/workouts.csv'),
+          create: (_) => CsvViewModel(CsvService())..loadData(),
         ),
       ],
 

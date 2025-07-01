@@ -1,33 +1,37 @@
 import 'package:academia/viewmodels/csv_viewmodel.dart';
-import 'package:academia/viewmodels/ficha_viewmodel.dart';
+import 'package:academia/viewmodels/ficha_viewmodel.dart'; // Mantive a importação, pois seu dialog a usa
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 class AddExercicioPage extends StatefulWidget {
-  const AddExercicioPage({super.key});
+  final int idFicha;
+  const AddExercicioPage({super.key, required this.idFicha});
 
   @override
   _AddExercicioPage createState() => _AddExercicioPage();
 }
 
 class _AddExercicioPage extends State<AddExercicioPage> {
-  // Lista de dados com 4 campos
   @override
   void initState() {
     super.initState();
+    // Garante que o carregamento dos dados seja chamado apenas uma vez após a UI ser construída
     WidgetsBinding.instance.addPostFrameCallback((_) {
+      // Usamos `listen: false` aqui porque só queremos chamar o método, não ouvir mudanças no initState
       final vm = Provider.of<CsvViewModel>(context, listen: false);
-      vm.loadData('assets/workouts.csv');
+      // Chama o método loadData do ViewModel (ele agora sabe como chamar o CsvService)
+      vm.loadData();
     });
   }
 
   @override
   Widget build(BuildContext context) {
-    final vm = Provider.of<CsvViewModel>(context);
+    // Usamos context.watch para que a UI se reconstrua quando o filtro for aplicado (notifyListeners)
+    final vm = context.watch<CsvViewModel>();
 
     return Scaffold(
       appBar: AppBar(
-        title: const Center(child: Text('Meu App')),
+        title: const Center(child: Text('Adicionar Exercício')),
         leading: Builder(
           builder:
               (context) => IconButton(
@@ -56,21 +60,22 @@ class _AddExercicioPage extends State<AddExercicioPage> {
           ],
         ),
       ),
-
       body:
           vm.isLoading
               ? const Center(child: CircularProgressIndicator())
               : Column(
                 children: [
-                  // Barra de busca com padding
+                  // Barra de busca funcional
                   Padding(
                     padding: const EdgeInsets.all(16),
                     child: Row(
                       children: [
                         Expanded(
                           child: TextField(
+                            // CONECTA O TEXTFIELD AO VIEWMODEL
+                            onChanged: (value) => vm.filterData(value),
                             decoration: InputDecoration(
-                              hintText: 'Buscar ficha...',
+                              hintText: 'Buscar exercício ou músculo...',
                               prefixIcon: const Icon(Icons.search),
                               border: OutlineInputBorder(
                                 borderRadius: BorderRadius.circular(12),
@@ -86,20 +91,22 @@ class _AddExercicioPage extends State<AddExercicioPage> {
                         IconButton(
                           icon: const Icon(Icons.filter_list),
                           onPressed: () {
-                            print('Filtro pressionado');
+                            // Lógica para um futuro filtro avançado pode ser colocada aqui
+                            print('Filtro avançado pressionado');
                           },
                         ),
                       ],
                     ),
                   ),
 
-                  // Lista de cards
+                  // Lista de cards que reage ao filtro
                   Expanded(
                     child: ListView.builder(
                       padding: const EdgeInsets.symmetric(horizontal: 16),
-                      itemCount: vm.data.length,
+                      // USA OS DADOS FILTRADOS DO VIEWMODEL
+                      itemCount: vm.filteredData.length,
                       itemBuilder: (context, index) {
-                        final row = vm.data[index];
+                        final row = vm.filteredData[index];
                         return Card(
                           margin: const EdgeInsets.symmetric(vertical: 8),
                           elevation: 3,
@@ -108,13 +115,14 @@ class _AddExercicioPage extends State<AddExercicioPage> {
                           ),
                           child: ListTile(
                             title: Text(
-                              row['Exercise_Name'],
+                              row['Exercise_Name'] ?? 'Nome indisponível',
                               style: const TextStyle(
                                 fontWeight: FontWeight.bold,
                               ),
                             ),
-                            subtitle: Text('Músculo: ${row['muscle_gp']}'),
-
+                            subtitle: Text(
+                              'Músculo: ${row['muscle_gp'] ?? 'N/A'}',
+                            ),
                             trailing: IconButton(
                               color: Colors.green,
                               icon: const Icon(Icons.add),
@@ -127,16 +135,18 @@ class _AddExercicioPage extends State<AddExercicioPage> {
                       },
                     ),
                   ),
-                  const SizedBox(width: 16),
                 ],
               ),
     );
   }
 
-  void showAddExerciseDialog(BuildContext context, row) {
+  // O seu método para mostrar o diálogo continua o mesmo
+  void showAddExerciseDialog(BuildContext context, Map<String, dynamic> row) {
     final TextEditingController repController = TextEditingController();
     final TextEditingController seriesController = TextEditingController();
-    final viewModel = context.read<FichaViewmodel>();
+    // Usamos context.read aqui porque estamos dentro de uma função de callback
+    // e não precisamos que esta parte da UI se reconstrua.
+    final fichaViewModel = context.read<FichaViewmodel>();
 
     showDialog(
       context: context,
@@ -144,7 +154,7 @@ class _AddExercicioPage extends State<AddExercicioPage> {
         return StatefulBuilder(
           builder: (context, setState) {
             return AlertDialog(
-              title: Text('Novo Exercício'),
+              title: const Text('Adicionar Exercício'),
               content: SingleChildScrollView(
                 child: Column(
                   mainAxisSize: MainAxisSize.min,
@@ -152,16 +162,16 @@ class _AddExercicioPage extends State<AddExercicioPage> {
                     TextField(
                       controller: repController,
                       keyboardType: TextInputType.number,
-                      decoration: InputDecoration(
+                      decoration: const InputDecoration(
                         labelText: 'Número de repetições',
                         border: OutlineInputBorder(),
                       ),
                     ),
-                    SizedBox(height: 16),
+                    const SizedBox(height: 16),
                     TextField(
                       controller: seriesController,
                       keyboardType: TextInputType.number,
-                      decoration: InputDecoration(
+                      decoration: const InputDecoration(
                         labelText: 'Número de séries',
                         border: OutlineInputBorder(),
                       ),
@@ -171,26 +181,34 @@ class _AddExercicioPage extends State<AddExercicioPage> {
               ),
               actions: [
                 TextButton(
-                  child: Text('Cancelar'),
+                  child: const Text('Cancelar'),
                   onPressed: () => Navigator.of(context).pop(),
                 ),
                 ElevatedButton(
-                  child: Text('Salvar'),
-                  onPressed: () {
+                  child: const Text('Salvar'),
+                  onPressed: () async {
+                    // O callback precisa ser async
                     final rep = int.tryParse(repController.text) ?? 0;
                     final series = int.tryParse(seriesController.text) ?? 0;
-                    print('Rep: ${viewModel.idFicha}');
-                    viewModel.salvaExercicio(
+
+                    // Agora só precisamos chamar um método.
+                    // Usamos `await` para esperar que ele salve E recarregue a lista.
+                    print(widget.idFicha);
+                    await fichaViewModel.salvaExercicio(
                       rep,
                       series,
                       row['Exercise_Name'],
                       row['muscle_gp'],
-                      viewModel.idFicha,
+                      widget.idFicha,
                     );
 
-                    Navigator.of(context).pop();
-                    viewModel.carregarExerciciosFicha(viewModel.idFicha);
-                    Navigator.of(context).pop();
+                    // Como o recarregamento já aconteceu, podemos simplesmente voltar.
+                    // A verificação `if (!mounted)` é uma boa prática em operações async
+                    if (!mounted) return;
+                    Navigator.of(context).pop(); // Fecha o dialog
+                    Navigator.of(
+                      context,
+                    ).pop(); // Volta para a tela de detalhes
                   },
                 ),
               ],

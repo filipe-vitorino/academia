@@ -182,14 +182,14 @@ class _MainMenu extends State<MainMenu> {
                   onPressed: () {
                     final nome = nomeController.text;
                     print('Nome: $nome');
-                    viewModel.criarFicha(nome);
+                    int id = viewModel.criarFicha(nome);
                     Navigator.of(context).pop();
                     Navigator.push(
                       context,
                       MaterialPageRoute(
                         builder:
                             (context) =>
-                                DetalhesFichaPage(idFicha: 0, nome: nome),
+                                DetalhesFichaPage(idFicha: id, nome: nome),
                       ),
                     );
                   },
